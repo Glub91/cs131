@@ -1,0 +1,69 @@
+    1  student
+    2  passwd
+    3  wget www.github
+    4  wget
+    5  wget www.github.com
+    6  pwd
+    7  cd / pwd
+    8  cd /
+    9  pwd
+   10  cd home
+   11  pwd
+   12  cd
+   13  pwd
+   14  cd ../..
+   15  pwd
+   16  cd ~
+   17  pwd
+   18  cd ../../etc
+   19  cd
+   20  pwd
+   21  cd ../../etc
+   22  pwd
+   23  cd home
+   24  cd /
+   25  pwd
+   26  pwd home
+   27  cd ../../etc
+   28  pwd
+   29  -m
+   30  cd ~
+   31  cd ~/Desktop
+   32  git init
+   33  touch newFile.txt
+   34  ls
+   35  git status
+   36  git commit -m "My first commit"
+   37  git config --global user.name "Samuel"
+   38  git status
+   39  git commit -m "My first commit"
+   40  git add newFile.txt
+   41  git commit -m "My first commit"
+   42  wgeg\ttamuelf23@sjsu ~]$ wgeg\tt
+   43  wget www.github.com
+   44  "history > cmds.log"
+   45  git remonte add origin
+   46  git remote add origin
+   47  git remote
+   48  git remote add https://github.com/Glub91/cs131.git
+   49  git push -u origin master
+   50  git remote add origin https://github.com/Glub91/cs131.git
+   51  git push -u origin master
+   52  git remote add origin https://github.com/Glub91/cs131.git
+   53  git push -u origin master
+   54  git remote add origin git@github.com:Glub91/cs131.git
+   55  git push -u origin master
+   56  git status
+   57  git delete index.html.1
+   58  git remote add origin git@github.com:Glub91/cs131.git
+   59* git clone 
+   60  history > cmds.log
+   61  git remote add origin git@github.com:Glub91/cs131.git
+   62  git remote add origin git@github.com:Glub91/cs131.git/Worksheet1.git
+   63  history > cmds.log
+   64  git push -u -f origin master
+   65  git push origin worksheet1
+   66  git push origin worksheet
+   67  git branch
+   68  git add history
+   69  history > cmds.log
