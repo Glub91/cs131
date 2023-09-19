@@ -1,0 +1,227 @@
+  430  mkdir Worksheet3
+  431  cd Worksheet3
+  432  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  433  ls
+  434  man sort
+  435  sort -k Global\ YouTube\ Statistics.csv 
+  436  sort -k16 Global\ YouTube\ Statistics.csv 
+  437  sort -k16,16nr  Global\ YouTube\ Statistics.csv 
+  438  cat Global\ YouTube\ Statistics.csv 
+  439  sort -k16,16nr  Global\ YouTube\ Statistics.csv 
+  440  clear
+  441  sort -k16,16nr  Global\ YouTube\ Statistics.csv 
+  442  sort -k5,16nr  Global\ YouTube\ Statistics.csv 
+  443  clear
+  444  sort -k5,16nr  Global\ YouTube\ Statistics.csv 
+  445  man sort
+  446  sort -k16 Global\ YouTube\ Statistics.csv 
+  447  sort -k16r Global\ YouTube\ Statistics.csv 
+  448  cat Global\ YouTube\ Statistics.csv 
+  449  vi Global\ YouTube\ Statistics.csv 
+  450  sort Global\ YouTube\ Statistics.csv 
+  451  man sort
+  452  sort -sort United/ States Global\ YouTube\ Statistics.csv 
+  453  sort -sort United\ States Global\ YouTube\ Statistics.csv 
+  454  sort --sort United\ States Global\ YouTube\ Statistics.csv 
+  455  sort --sort 'United\ States' Global\ YouTube\ Statistics.csv 
+  456  sort --help
+  457  sort -k7
+  458  sort -k7 Global\ YouTube\ Statistics.csv 
+  459  clear
+  460  sort -k7 Global\ YouTube\ Statistics.csv 
+  461  sort -k16,16nr  Global\ YouTube\ Statistics.csv 
+  462  sort -k8 Global\ YouTube\ Statistics.csv 
+  463  clear
+  464  sort -k8 Global\ YouTube\ Statistics.csv 
+  465  clear
+  466  man grep
+  467  grep United\ States
+  468  grep United\ States Global\ YouTube\ Statistics.csv 
+  469  grep United\ States Global\ YouTube\ Statistics.csv | sort -k16 Global\ YouTube\ Statistics.csv 
+  470  sort -k16 Global\ YouTube\ Statistics.csv | grep United\ States Global\ YouTube\ Statistics.csv 
+  471  sort -k16 Global\ YouTube\ Statistics.csv | grep United\ States
+  474  cat Global\ YouTube\ Statistics.csv 
+  475  man sort
+  476  sort --files0-from5 Global\ YouTube\ Statistics.csv 
+  572  sort -k16n Global\ YouTube\ Statistics.csv | head -n 10
+  573  sort -k16n Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  574  sort -k16,n Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  575  sort -k16 Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  576  sort -k16nr Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  577  sort -k16n Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  578  sort -k16 Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  579  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep India | head -n 10
+  580  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep United\ States | head -n 10
+  581  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep United\ Kingdom | head -n 10
+  582  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep United\ Kingdom | head -n 1
+  583  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep United States | head -n 1
+  584  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep United\ States | head -n 1
+  585  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | head -n 1
+  586  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | head -n 2
+  587  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | head -n 10
+  588  sort -k16 Global\ YouTube\ Statistics.csv | head -n 10
+  589  sort -nk16 Global\ YouTube\ Statistics.csv | head -n 10
+  590  grep India Global\ YouTube\ Statistics.csv | sort -nk16 Global\ YouTube\ Statistics.csv | head -n 10
+  591  grep India Global\ YouTube\ Statistics.csv | sort -nk16 | head -n 10
+  592  grep India Global\ YouTube\ Statistics.csv | sort -nk16 | head -n 1
+  593  sort -nk16 Global\ YouTube\ Statistics.csv | head -n 10
+  594  sort -nk16 Global\ YouTube\ Statistics.csv | grep United\ States | head -n 10
+  595  sort -k16n Global\ YouTube\ Statistics.csv | grep United\ States | head -n 10
+  596  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep United\ States | head -n 10
+  597  sort -k16 Global\ YouTube\ Statistics.csv | grep United\ States | head -n 10
+  598  sort -k16 Global\ YouTube\ Statistics.csv | head -n 10
+  599  sort -k1n Global\ YouTube\ Statistics.csv | head -n 10
+  600  sort -k3n Global\ YouTube\ Statistics.csv | head -n 10
+  601  sort -k16n Global\ YouTube\ Statistics.csv | head -n 10
+  602  sort -k4n Global\ YouTube\ Statistics.csv | head -n 10
+  603  sort -k16n Global\ YouTube\ Statistics.csv | grep United\ States | head -n 1
+  604  sort -k16n Global\ YouTube\ Statistics.csv | grep United\ States | head -n 1 > task1.txt
+  605  sort -k16n Global\ YouTube\ Statistics.csv | grep United\ Kingdom | head -n 1 >> task1.txt
+  606  sort -k16n Global\ YouTube\ Statistics.csv | grep India | head -n 1 >> task1.txt
+  607  cat task1.txt 
+  608  sort -k16n Global\ YouTube\ Statistics.csv | grep United\ Kingdom | head -n 10
+  609  sort -k16n Global\ YouTube\ Statistics.csv | head -n 10
+  610  sort Global\ YouTube\ Statistics.csv | head -n 10
+  611  sort -n Global\ YouTube\ Statistics.csv | head -n 10
+  612  sort -k3n Global\ YouTube\ Statistics.csv | grep Sports | head -n 10
+  613  sort -k3n Global\ YouTube\ Statistics.csv | grep Entertainment | head -n 10
+  614  sort -k3n Global\ YouTube\ Statistics.csv | grep Education | head -n 10
+  615  sort -k3n Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  616  sort -k3 Global\ YouTube\ Statistics.csv | grep India | head -n 10
+  617  sort -k3 Global\ YouTube\ Statistics.csv | head -n 10
+  618  sort -k3n Global\ YouTube\ Statistics.csv | head -n 10
+  619  sort -k3n Global\ YouTube\ Statistics.csv |head -n 10
+  620  sort -n Global\ YouTube\ Statistics.csv |head -n 10
+  621  sort -k3n Global\ YouTube\ Statistics.csv |head -n 10
+  622  sort -k3 Global\ YouTube\ Statistics.csv |head -n 10
+  623  sort -k3 Global\ YouTube\ Statistics.csv | head -n 10
+  624  sort -k3 Global\ YouTube\ Statistics.csv | sort -n |  head -n 10
+  625  sort -k3 Global\ YouTube\ Statistics.csv | sort -n | grep India | head -n 10
+  626  sort -k16 Global\ YouTube\ Statistics.csv | sort -n | grep India | head -n 10
+  627  sort -k1 Global\ YouTube\ Statistics.csv | sort -n | grep India | head -n 10
+  628  sort -n Global\ YouTube\ Statistics.csv | sort -k3 | grep India | head -n 10
+  629  man sort
+  630  sort -sortIndia Global\ YouTube\ Statistics.csv 
+  631  sort --sortIndia Global\ YouTube\ Statistics.csv 
+  632  man sort
+  633  sort -k 3n Global\ YouTube\ Statistics.csv 
+  634  sort -k 3n Global\ YouTube\ Statistics.csv | head -n 10
+  635  sort -k 3n Global\ YouTube\ Statistics.csv
+  636  claer
+  637  clear
+  638  sort -k 3n Global\ YouTube\ Statistics.csv
+  639  sort -k 3n Global\ YouTube\ Statistics.csv | head tail
+  640  sort -k 3nr Global\ YouTube\ Statistics.csv | head tail
+  641  sort -k 3nr Global\ YouTube\ Statistics.csv | head -n 10
+  642  clear
+  643  sort -k 3nr Global\ YouTube\ Statistics.csv | head -n 10
+  644  sort -k 3n Global\ YouTube\ Statistics.csv | head -n 10
+  645  sort -k 3n Global\ YouTube\ Statistics.csv | head 10
+  646  man head
+  647  sort -k 3n Global\ YouTube\ Statistics.csv | head
+  648  sort -k 3 Global\ YouTube\ Statistics.csv | head
+  649  sort -nk 3 Global\ YouTube\ Statistics.csv | head
+  650  vi Global\ YouTube\ Statistics.csv 
+  651  sort -k16,16nr Global\ YouTube\ Statistics.csv 
+  652  sort -k16,16nr Global\ YouTube\ Statistics.csv | head
+  653  clear
+  654  sort -k16,16nr Global\ YouTube\ Statistics.csv | head
+  655  sort -k3,3nr Global\ YouTube\ Statistics.csv | head
+  656  sort -k3,3n Global\ YouTube\ Statistics.csv | head
+  657  sort -k16,16n Global\ YouTube\ Statistics.csv | head
+  658  sort -k3,16n Global\ YouTube\ Statistics.csv | head
+  659  sort -k3,n Global\ YouTube\ Statistics.csv | head
+  660  sort -k 1n Global\ YouTube\ Statistics.csv | head
+  661  sort -k 3n Global\ YouTube\ Statistics.csv | head
+  662  sort -k 2n Global\ YouTube\ Statistics.csv | head
+  663  sort -k 2n Global\ YouTube\ Statistics.csv
+  664  sort -k 2nr Global\ YouTube\ Statistics.csv
+  665  sort -k 2nr Global\ YouTube\ Statistics.csv | head
+  666  sort -k 3nr Global\ YouTube\ Statistics.csv | head
+  667  sort -k 4nr Global\ YouTube\ Statistics.csv | head
+  668  sort -k 16nr Global\ YouTube\ Statistics.csv | head
+  669  sort -k 16nr Global\ YouTube\ Statistics.csv | grep India | head
+  670  sort 16nr Global\ YouTube\ Statistics.csv | grep India | head
+  671  sort nr Global\ YouTube\ Statistics.csv | grep India | head
+  672  sort -nr Global\ YouTube\ Statistics.csv | grep India | head
+  673  sort -n Global\ YouTube\ Statistics.csv | grep India | head
+  674  grep India Global\ YouTube\ Statistics.csv | sort -k3 | head
+  675  grep India Global\ YouTube\ Statistics.csv | sort -k 3n | head
+  676  grep India Global\ YouTube\ Statistics.csv | sort -k 16n | head
+  677  grep India Global\ YouTube\ Statistics.csv | sort -k 16n | head -n 1
+  678  grep Sports  Global\ YouTube\ Statistics.csv | sort -k 3n | head -n 1
+  679  grep Sports Global\ YouTube\ Statistics.csv | sort -k 3n | head -n 1
+  680  grep Sports Global\ YouTube\ Statistics.csv | sort -k 3n | head -n 1 > task2
+  681  grep Education Global\ YouTube\ Statistics.csv | sort -k 3n | head -n 1
+  682  grep Sports Global\ YouTube\ Statistics.csv | sort -k 3n | head -n 1 > task2.txt
+  683  grep Education Global\ YouTube\ Statistics.csv | sort -k 3n | head -n 1 >> task2.txt 
+  684  grep Entertainment Global\ YouTube\ Statistics.csv | sort -k 3n | head -n 1 >> task2.txt 
+  685  cat task2.txt 
+  686  sort -k3 Global\ YouTube\ Statistics.csv | head
+  687  sort -k 3n Global\ YouTube\ Statistics.csv | head
+  688  sort -k 3nr Global\ YouTube\ Statistics.csv | tail
+  689  sort -k 3nr Global\ YouTube\ Statistics.csv | head
+  690  sort -k 3nr Global\ YouTube\ Statistics.csv
+  691  clear
+  692  sort -k 3nr Global\ YouTube\ Statistics.csv
+  693  sort -k3 -nr Global\ YouTube\ Statistics.csv | head
+  694  clear
+  695  sort -k3 -nr Global\ YouTube\ Statistics.csv | head
+  696  sort -k3 -n Global\ YouTube\ Statistics.csv | head
+  697  sort -k16 -n Global\ YouTube\ Statistics.csv | head
+  698  sort -k18 -n Global\ YouTube\ Statistics.csv | head
+  699  sort -t',' -k116 -n Global\ YouTube\ Statistics.csv | head
+  700  sort -t',' -k16 -n Global\ YouTube\ Statistics.csv | grep India | head
+  701  sort -t',' k16, n Global\ YouTube\ Statistics.csv | grep India | head
+  702  sort -t',' k16, 16n Global\ YouTube\ Statistics.csv | grep India | head
+  703  sort -t',' k16,16n Global\ YouTube\ Statistics.csv | grep India | head
+  704  sort -t',', k16,16n Global\ YouTube\ Statistics.csv | grep India | head
+  705  sort -t',', k 16n Global\ YouTube\ Statistics.csv | grep India | head
+  706  sort -t',' k 16n Global\ YouTube\ Statistics.csv | grep India | head
+  707  sort -t',' -k 16n Global\ YouTube\ Statistics.csv | grep India | head
+  708  sort -t',' -k 16nr Global\ YouTube\ Statistics.csv | grep India | head
+  709  sort -t',' -k 16nr Global\ YouTube\ Statistics.csv | grep United\ States | head
+  710  sort -t',' -k 16nr Global\ YouTube\ Statistics.csv | grep United\ States | head -n 1 >> task1.txt
+  711* sort -t',' -k 16nr Global\ YouTube\ Statistics.csv | grep Un | head -n 1 >> task1.txt
+  712  sort -t',' -k 16nr Global\ YouTube\ Statistics.csv | grep United\ Kingdom | head -n 1 >> task1.txt
+  713  sort -t',' -k 16nr Global\ YouTube\ Statistics.csv | grep India | head -n 1 >> task1.txt
+  714  cat task1.txt 
+  715  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Sports | head -n 1
+  716  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Sports | head -n 1 > task2.txt 
+  717  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Entertainment | head -n 1
+  718  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Education | head -n 1
+  719  sort -t',' -k3 3nr Global\ YouTube\ Statistics.csv | grep Education | head -n 1
+  720  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Education | head -n 5
+  721  grep Cocomelon Global\ YouTube\ Statistics.csv 
+  722  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Education | head
+  723  grep Education > education.txt
+  724  grep Education Global\ YouTube\ Statistics.csv > education.txt
+  725  sort -t',' -k3, 3nr education.txt 
+  726  sort -t',' -k3,3nr education.txt 
+  727  sort -t',' -k3,3nr education.txt | head
+  728  sort -t',' -k3,3nr education.txt | head -n 
+  729  sort -t',' -k3,3nr education.txt | head -n 1
+  730  sort -t',' -k3,3nr education.txt | head -n 1 >> task2.txt
+  731  cat task2.txt 
+  732  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Entertainment | head
+  733  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Entertainment | head >> task2.txt 
+  734  cat task2.txt 
+  735  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Sports | head -n 1 > task2.txt 
+  736  sort -t',' -k3,3nr education.txt | head -n 1 >> task2.txt
+  737  sort -t',' -k 3nr Global\ YouTube\ Statistics.csv | grep Entertainment | head -n 1 >> task2.txt 
+  738  cat text2.
+  739  cat text2.txt
+  740  cat task2.txt
+  741  vi task1.txt 
+  742  clear
+  743  task1.txt > ws3.txt
+  744  cat task1.txt > ws3.txt
+  745  cat ws3.txt 
+  746  cat task2.txt >> ws3.txt
+  747  vi ws3.txt 
+  748  cat ws3.txt 
+  749  cd ..
+  750  cd Worksheet3
+  751  history > cmds.log
+  752  vi cmds.log 
+  753  history > cmds.log
