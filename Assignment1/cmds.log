@@ -1,0 +1,64 @@
+1) 
+    4  mkdir Assignment1
+    5  cd Assignment1/
+
+2)
+    6  echo $SHELL
+3)
+    8  echo $HOME
+
+4)
+   16  cd /etc/
+   20  ls -a
+   22  cat passwd
+uerID is samuelf23
+   23  cat group
+I am part of group S77
+
+5)
+   25  cd $HOME
+   26  cd Assignment1/
+   27  mkdir myDir
+   28  chmod 577 myDir
+   29  ls -l myDir
+   30  ls -l
+   31  cd myDir/
+   32  ls
+Still able to read directory contents using ls
+
+   33  ls -l
+Still able to use ls -l
+
+   34  man ls
+   35  touch newFile.txt
+permission denied unable to create file because missing write permission
+
+6)
+   37  cd ..
+   38  mkdir myDir2
+   39  mkdir myDir3
+
+7)
+   40  cd myDir2
+   41  touch myFile.txt
+   42  man mv
+   43  mv myFile.txt myDir3
+
+
+8)
+   44  free
+   45  man free
+   46  free -m
+
+9)
+   47  cd /etc/
+   48  cat /etc/os-release
+
+10)
+   50  ls -l
+read write execute permission given to all users for file containing OS version 
+
+   52  cd ..
+   53  cd $HOME
+   54  cd Assignment1
+   56  history > cmds.log 
