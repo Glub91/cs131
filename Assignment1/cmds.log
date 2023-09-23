@@ -42,7 +42,7 @@ permission denied unable to create file because missing write permission
    40  cd myDir2
    41  touch myFile.txt
    42  man mv
-   43  mv myFile.txt myDir3
+   43  mv myFile.txt /mnt/scratch/FA23_CS131_Ashish/samuelf23/Assignment1/myDir3
 
 
 8)
