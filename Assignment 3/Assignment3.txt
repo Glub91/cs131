@@ -1,0 +1,126 @@
+Task 1:
+
+Commands(s) used to solve: man last
+
+1. wc -l last.fake
+2. awk '/f23/' last.fake > lastf23.fake
+3. wc -l lastf23.fake
+
+
+Output of Command:
+1. 2162 last.fake
+2. produced no outputs
+3. 239 lastf23.fake
+
+-------------------------------------------------------------------------------------
+
+Task 2: 
+
+Command(s) used to solve: 
+1.grep "Sun\ Oct\ 22" lastf23.fake
+
+2.grep "Sun\ Oct\ 22" lastf23.fake | awk '{print $1}'
+
+3. grep "Sun\ Oct\ 22" lastf23.fake | awk '{print $1}' | sort |uniq
+
+Output of Command:
+1. jewonf23 pts/120      172.29.96.178    Sun Oct 22 19:37 - 23:57  (04:19)
+ 
+2. jewonf23
+
+3. jewonf23
+
+----------------------------------------------------------------------------------------
+
+Task 3:
+
+Command(s) used to solve : sort lastf23.fake | awk 'BEGIN {print "List of Night Owls:"} $7 >= "23:00" || $7 <= "04:00" {print $1} END {print "Night Owls are dope. Please ensure you get enough sleep though."}' | uniq
+
+Output of Command: 
+List of Night Owls:
+aaronf23
+anasf23
+divijf23
+hamzaf23
+hof23
+jamesf23
+junf23
+kobef23
+maximf23
+rahulf23
+rikkif23
+saniaf23
+thif23
+tienf23
+Night Owls are dope. Please ensure you get enough sleep though.
+
+----------------------------------------------------------------------------------------------------------------
+
+Task 4:
+
+Command(s) used to solve : sort lastf23.fake | awk 'BEGIN {print "List of Early Birds:"} $7 >= "05:00" || $7 <= "09:00" {print $1} END {print "Early Birds are dope. Please ensure you get enough sleep though."}' | uniq
+
+
+Output of Command: 
+
+"
+List of Early Birds:
+aaronf23
+anasf23
+divijf23
+hamzaf23
+hof23
+jamesf23
+jewonf23
+junf23
+kobef23
+maximf23
+rahulf23
+rikkif23
+saniaf23
+thif23
+tienf23
+Early Birds are dope. Please ensure you get enough sleep though.
+
+------------------------------------------------------------------------------------------
+
+Task 5:
+
+Command(s) used to solve :awk '/^t/ {print $1}' lastf23.fake | sort | uniq
+
+Output of Command: 
+thif23
+tienf23
+
+------------------------------------------------------------------------------------------
+
+Task 6:
+
+Command(s) used to solve : awk -F: '$1 ~ /^a/ && $3 % 2 == 0 {print $1}' passwd.fake
+
+
+Output of Command: 
+angie23fa
+areebah23fa
+apple23fa
+ajay23fa
+alan23fa
+amreenf23
+
+----------------------------------------------------------------------------------------------
+
+Task 7:
+
+Command(s) used to solve : sed 's/[a-zA-Z0-9 ]//g' passwd.fake | sort -u
+
+Output of Command: 
+-::::-:/://
+-:::::///-://
+-:::::/://
+::::-:///://
+:::::///://
+:::::///_/://
+:::::///__/://
+::::://://
+:::::/://
+
